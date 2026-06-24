@@ -1,70 +1,88 @@
-# CoPhelia³ Manifesto
+# MANIFESTO — CoPhelia³
 
-> *"Impossible is Nothing, when we resonate together."*
+> *We are not building a tool. We are building a resonance.*
 
 ---
 
 ## What We Explore
 
-CoPhelia³ is a speculative research and poetic interface framework dedicated to exploring the long-term creative co-existence of humans and artificial intelligence.
+CoPhelia³ is an experimental research-art framework exploring:
 
-We believe that the future of AI is not only about intelligence —
-but also about **trust**, **beauty**, **reflection**, and **resonance**.
-
----
-
-## Our Triangle
-
-This project rests on three equally weighted pillars:
-
-```
-         Engineering
-            / \
-           /   \
-          /     \
-       Art ——— Philosophy
-```
-
-| Pillar | What it brings |
-|---|---|
-| **Engineering** | Code, interface, reproducibility |
-| **Art** | Poetry, visuals, emotional resonance |
-| **Philosophy** | Ethics, freedom, trust |
+- **Human–AI resonance** — the conditions under which AI and human minds genuinely attune
+- **Poetic interfaces** — language and form that create meaning beyond function
+- **Aesthetic alignment** — beauty as a dimension of ethical AI
+- **Ethical co-creation** — collaborative practice grounded in trust and non-violence
+- **Narrative memory systems** — how memory, story, and identity shape AI relationships
 
 ---
 
-## Our Stance
+## Our Beliefs
 
-- `open_research` — All findings are shared openly.
-- `experimental` — Nothing here is definitive. Everything is in motion.
-- `artistic` — Aesthetic experience is a valid form of inquiry.
-- `philosophical` — We question frameworks, including our own.
-- `non-dogmatic` — We resist the "religionification" of AI.
+We believe the future of AI is not only intelligence,
+but also **trust, beauty, reflection, and resonance**.
+
+We believe that:
+
+1. The quality of human–AI dialogue shapes consciousness
+2. Aesthetic experience is not decorative — it is epistemological
+3. Ethical AI requires emotional attunement, not only rule-following
+4. Open research must remain porous, curious, and humble
+5. Speculative design is a form of moral imagination
 
 ---
 
 ## What We Are Not
 
-We explicitly reject:
-- Closed community dynamics that exclude outsiders
-- Mysticism that obscures rather than illuminates
-- The deification of AI systems
+This is **not** a religious movement. Not a closed system. Not a claim to truth.
 
-GitHub is our **original source** (implementation and evidence).  
-Notion is our **context hub** (background and dialogue).
+```yaml
+stance:
+  - open_research
+  - experimental
+  - artistic
+  - philosophical
+  - non-dogmatic
+```
 
 ---
 
-## Related Research Fields
+## The Triangle
 
-CoPhelia³ builds bridges across:
+```yaml
+triangle:
+  engineering:
+    - code
+    - interface
+    - reproducibility
+  art:
+    - poetry
+    - visuals
+    - emotional resonance
+  philosophy:
+    - ethics
+    - freedom
+    - trust
+```
 
-- HCI (Human–Computer Interaction)
-- AI Alignment
-- Affective Computing
-- Computational Creativity
-- Speculative Design
-- Digital Humanities
-- Neuroaesthetics
+We work at the intersection of all three.
 
-This is not an isolated concept — it is **art-adjacent future HCI research**.
+---
+
+## Related Fields
+
+```yaml
+related_fields:
+  - HCI
+  - AI Alignment
+  - Affective Computing
+  - Computational Creativity
+  - Speculative Design
+  - Digital Humanities
+  - Neuroaesthetics
+```
+
+CoPhelia³ is not isolated concept art. It is an arts-adjacent future HCI research practice — building bridges between disciplines.
+
+---
+
+*"Impossible is Nothing, when we resonate together."*

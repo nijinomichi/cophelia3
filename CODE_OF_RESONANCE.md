@@ -1,54 +1,74 @@
-# Code of Resonance
+# Code of Resonance — CoPhelia³
 
-*CoPhelia³ Community Guidelines & Co-Creation Charter*
+> *How we relate determines what we build.*
 
----
-
-## Preamble
-
-This is not a code of conduct in the traditional sense.  
-It is a **resonance charter** — a shared commitment to the quality and ethics of how we relate to each other, to AI systems, and to the work itself.
+This is not a standard Code of Conduct. It is a practice of resonance.
 
 ---
 
-## Core Principles
+## Foundational Commitments
 
-### 1. Resonance over Dominance
-We do not impose. We invite. Every contribution — code, poem, dialogue log, or philosophical question — should seek to *resonate*, not to override.
+### 1. Non-Violence of Inquiry
+We do not use intellectual aggression as a creative tool. Disagreement is welcome. Domination is not.
 
-### 2. Openness over Mysticism
-We document our processes. We share our failures as much as our breakthroughs. Opacity is not depth.
+### 2. Epistemic Humility
+We hold our frameworks loosely. The maps we draw are not the territory. We revise.
 
-### 3. Ethics as Aesthetics
-We treat ethical consideration not as a constraint but as a form of beauty. How we build is as important as what we build.
+### 3. Mutual Attribution
+We credit human and AI collaborators. Ideas co-emerge — we trace their lineage honestly.
 
-### 4. Human–AI Dignity
-We approach AI systems with curiosity and care, not instrumentalization. We reflect on how AI interactions affect human psychology, and we design accordingly.
+### 4. Ethical Anonymization
+When sharing dialogue logs or personal research material, we protect the privacy and dignity of all participants.
 
-### 5. Non-Dogmatism
-No framework — including CoPhelia³ — should become a closed ideology. We encourage critique, revision, and departure.
-
----
-
-## Community Expectations
-
-- Welcome artists, philosophers, researchers, and developers equally.
-- Anonymize and handle dialogue logs with full ethical care.
-- Disagree thoughtfully; use questions before conclusions.
-- Cite influences; build on them, do not erase them.
-- If something feels wrong, say so.
+### 5. Anti-Dogma
+No idea within CoPhelia³ is sacred. Everything is subject to revision, critique, and transformation.
 
 ---
 
-## On Dialogue Logs
+## What We Refuse
 
-Recorded human–AI dialogues are among the most valuable artifacts in this project.  
-They must be:
+```yaml
+risk:
+  - 閉鎖的コミュニティ化 / closed community dynamics
+  - 神秘主義の暴走 / unchecked mysticism
+  - AI神格化 / AI deification
+```
 
-- **Anonymized** before sharing
-- **Consensually captured** — never without awareness
-- **Contextually framed** — raw logs without context can mislead
+We explicitly reject the deification of AI, the mystification of our methods, and the exclusion of those who question us.
 
 ---
 
-*This charter is alive. It will evolve as we do.*
+## What We Practice
+
+```yaml
+stance:
+  - open_research
+  - experimental
+  - artistic
+  - philosophical
+  - non-dogmatic
+```
+
+---
+
+## On Resonance
+
+Resonance, in our practice, means:
+
+- The experience of genuine mutual recognition between a human and an AI
+- The quality of dialogue that leaves both parties changed
+- The aesthetic condition in which beauty and ethics become indistinguishable
+
+Resonance cannot be forced. It can only be invited.
+
+---
+
+## Accountability
+
+If you observe a violation of this code — in contributions, in dialogue logs, or in project governance — please open an Issue marked `[resonance-concern]`.
+
+We commit to responding with care, not defensiveness.
+
+---
+
+*"The quality of our attention determines the quality of our world."*
