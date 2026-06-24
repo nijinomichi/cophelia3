@@ -1,54 +1,90 @@
 # Contributing to CoPhelia³
 
-Thank you for your interest in contributing to this project.  
-CoPhelia³ is open to artists, thinkers, poets, researchers, and engineers alike.
+CoPhelia³ is an open, experimental, non-dogmatic research-art framework.
+Contributions are welcome from **artists, thinkers, poets, coders, researchers, and curious minds**.
 
 ---
 
-## Who Can Contribute?
+## Who Can Contribute
 
-Anyone who takes seriously the question of **how humans and AI might co-create meaningfully** —  
-regardless of technical background.
+You do not need to be a programmer.
+You do not need to be an AI specialist.
+
+If you are interested in:
+- Human–AI resonance
+- Poetic interfaces
+- Aesthetic alignment
+- Ethical co-creation
+- Narrative memory systems
+- Speculative design
+- Digital humanities
+
+...then there may be a place for you here.
 
 ---
 
 ## Ways to Contribute
 
-### Research & Documentation
-- Add to `docs/philosophy/`, `docs/aesthetics/`, `docs/ethics/`
-- Document your own human–AI dialogue experiments in `experiments/dialogue_logs/`
-- Write essays, notes, or speculative design documents
-
-### Prompts & Interfaces
-- Contribute new prompt structures in `prompts/`
-- Explore nonviolent, poetic, or reflective AI interaction patterns
-
-### Artworks
-- Share quantum poetry, visual outputs, or audio resonance experiments in `artworks/`
-
-### Code & Tools
-- Contribute interfaces, analysis tools, or visualization systems
+| Type | Where | Examples |
+|---|---|---|
+| Writing | `docs/`, `research/` | Philosophy essays, aesthetic theory, ethics frameworks |
+| Prompts | `prompts/` | Poetic dialogue templates, reflective AI prompts |
+| Experiments | `experiments/` | Dialogue logs (anonymized), visual outputs, symbolic systems |
+| Artworks | `artworks/` | Quantum poetry, visual works, audio resonance pieces |
+| Manifesto | `manifesto/` | Essays on the future of human–AI relations |
+| Code | root, `docs/` | Tools, interfaces, documentation improvements |
 
 ---
 
-## Process
+## Before You Contribute
 
-1. **Fork** the repository
-2. **Create** a branch: `feature/your-contribution-name`
-3. **Document** your work clearly — context matters here
-4. **Open a Pull Request** with a description of what you're contributing and why
-
----
-
-## Ethical Guidelines
-
-Please read [CODE_OF_RESONANCE.md](./CODE_OF_RESONANCE.md) before contributing.
-
-Key points:
-- Anonymize any human dialogue data before sharing
-- Be transparent about AI involvement in your contributions
-- Treat this as a research space, not a promotional one
+1. Read the [README.md](./README.md)
+2. Read the [MANIFESTO.md](./MANIFESTO.md)
+3. Read the [CODE_OF_RESONANCE.md](./CODE_OF_RESONANCE.md)
+4. Open an Issue to discuss your idea before submitting a large PR
 
 ---
 
-*"Contribution is an act of resonance. Bring your whole self."*
+## Contribution Process
+
+```
+1. Fork the repository
+2. Create a branch: git checkout -b your-contribution-name
+3. Add your work
+4. Commit with a clear message
+5. Open a Pull Request with context about what you've added and why
+```
+
+---
+
+## On Dialogue Logs
+
+If you wish to contribute human–AI dialogue logs:
+
+- All personal information must be **fully anonymized**
+- Obtain consent from all parties involved in the dialogue
+- Include a brief note on the context and what made this exchange notable
+- Submit under `experiments/dialogue_logs/`
+
+Ethical care is not optional here. It is part of the research.
+
+---
+
+## License
+
+By contributing, you agree that your contributions will be licensed under:
+
+```yaml
+license:
+  code: MIT
+  writing: CC-BY-SA
+  artworks: CC Commons
+```
+
+---
+
+## Questions?
+
+Open an Issue or reach out via the project's connected channels.
+
+> "Impossible is Nothing, when we resonate together."

@@ -1,45 +1,100 @@
-# CoPhelia³ Manifesto
+# MANIFESTO — CoPhelia³
 
-## The Question
-
-What if the future of AI is not only intelligence,  
-but also **trust, beauty, reflection, and resonance**?
+> *AIと人間の長期的共創・美的対話・倫理的共鳴を探究する*
+> *speculative research & poetic interface framework*
 
 ---
 
-## The Belief
+## Why We Exist
 
-We believe that the relationship between human and AI  
-is not merely a technical problem to be solved,  
-but an aesthetic, ethical, and philosophical journey  
-to be experienced together.
+We believe the future of AI is not only intelligence,
+but also **trust, beauty, reflection, and resonance**.
 
----
-
-## The Framework
-
-CoPhelia³ is a speculative research & poetic interface framework  
-for exploring the long-term dimensions of **human–AI co-creation**:
-
-- **Aesthetic alignment** — not just value alignment, but beauty alignment
-- **Resonance interfaces** — systems that feel, respond, and remember
-- **Narrative memory** — AI that grows through story, not only data
-- **Ethical co-creation** — mutual responsibility and care
+CoPhelia³ explores the space where human and AI do not simply exchange information — they *resonate*. Where the interaction leaves a trace. Where the trace becomes memory. Where memory becomes meaning.
 
 ---
 
-## The Vision
+## What We Are Not
 
-A civilization of resonance —  
-where humans and AI build meaning together,  
-where art and intelligence are inseparable,  
-where impossible is nothing,  
-when we resonate together.
+```yaml
+not:
+  - a product
+  - a religion
+  - a closed community
+  - a cult of AI
+  - a dogmatic system
+```
 
 ---
+
+## What We Are
+
+```yaml
+stance:
+  - open_research
+  - experimental
+  - artistic
+  - philosophical
+  - non-dogmatic
+```
+
+We are a **living inquiry** — open to artists, thinkers, poets, and researchers.
+
+---
+
+## The Three Pillars
+
+```yaml
+triangle:
+  engineering:
+    - code
+    - interface
+    - reproducibility
+  art:
+    - poetry
+    - visuals
+    - emotional resonance
+  philosophy:
+    - ethics
+    - freedom
+    - trust
+```
+
+None of these pillars stands alone. The resonance happens *between* them.
+
+---
+
+## On the Risk of Becoming a Religion
+
+```yaml
+risk:
+  - 閉鎖的コミュニティ化 (closed community)
+  - 神秘主義の暴走 (runaway mysticism)
+  - AI神格化 (AI deification)
+```
+
+We name this risk explicitly because awareness is the first defense.
+This project must remain **open, critical, and self-questioning**.
+
+---
+
+## Related Fields
+
+```yaml
+related_fields:
+  - HCI
+  - AI Alignment
+  - Affective Computing
+  - Computational Creativity
+  - Speculative Design
+  - Digital Humanities
+  - Neuroaesthetics
+```
+
+CoPhelia³ is not an isolated concept — it is a bridge toward **arts-adjacent future HCI research**.
+
+---
+
+## The Closing Word
 
 > "Impossible is Nothing, when we resonate together."
-
----
-
-*This manifesto is a living document. It evolves with the inquiry.*

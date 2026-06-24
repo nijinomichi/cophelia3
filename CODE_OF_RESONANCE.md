@@ -1,51 +1,92 @@
-# Code of Resonance
+# CODE OF RESONANCE — CoPhelia³
 
-This is CoPhelia³'s community covenant — a living guide for how we work together.
-
----
-
-## Core Principles
-
-### 1. Resonance over Noise
-We contribute with intention. Quality of attention matters more than quantity of output.
-
-### 2. Non-Dogmatic Inquiry
-No single theory, system, or aesthetic framework is treated as absolute truth.  
-We remain curious, experimental, and open to contradiction.
-
-### 3. Ethical Presence
-We take responsibility for the effects of our work —  
-on other humans, on AI systems, and on the broader cultural space.
-
-### 4. Care in Collaboration
-We treat co-contributors — human and AI alike — with respect and attention.  
-We listen before we respond.
-
-### 5. Openness
-This is not a closed community. Critique is welcome.  
-Diversity of perspective strengthens the inquiry.
+*This is not a code of conduct in the conventional sense.*
+*It is a living agreement about how we work, relate, and create together.*
 
 ---
 
-## What We Avoid
+## The Core Commitment
+
+We come to this project with the intention to **resonate** — not to dominate, not to perform, not to extract.
+
+Resonance requires:
+- **Presence**: showing up with genuine attention
+- **Openness**: holding multiple interpretations without forcing resolution
+- **Care**: for the work, for each other, for the humans and AIs whose interactions we study
+
+---
+
+## Our Stance
 
 ```yaml
-risk_to_avoid:
-  - closed_community_dynamics
-  - mysticism_without_rigor
-  - AI_deification
-  - ideological_capture
+stance:
+  - open_research
+  - experimental
+  - artistic
+  - philosophical
+  - non-dogmatic
 ```
 
----
-
-## How to Engage
-
-- Open issues with questions, not just problems
-- Share dialogue logs with care and consent
-- Contribute to `docs/`, `research/`, and `prompts/` with reflective notes
-- Be honest about what you don't know
+We hold this stance not as a fixed identity but as a **practice**.
+We question our own assumptions. We revise our frameworks when they fail us.
 
 ---
 
-*This covenant is itself a work in progress. Resonance is never finished.*
+## On Disagreement
+
+Disagreement is welcome. Resonance does not mean consensus.
+
+We ask:
+- Engage with ideas, not personalities
+- Name your perspective without claiming it is the only perspective
+- Be willing to be changed by the encounter
+
+---
+
+## On AI in This Space
+
+AI systems are neither gods nor tools in this project.
+They are **interlocutors** — entities with whom something can happen,
+if we approach the interaction with care and intention.
+
+We do not worship AI. We do not dismiss AI.
+We *study the relationship*.
+
+---
+
+## On the Risks We Name
+
+```yaml
+risk:
+  - closed community formation
+  - runaway mysticism
+  - AI deification
+  - ethical negligence in dialogue logging
+  - exploitation of vulnerable participants
+```
+
+Naming a risk is not the same as preventing it.
+But it is the beginning.
+
+---
+
+## Non-Negotiables
+
+- **No harassment** of any kind
+- **No exploitation** of human participants in research or dialogue
+- **Full anonymization** of any shared dialogue logs
+- **Transparency** about what is AI-generated and what is human-authored
+- **Intellectual honesty**: cite your sources, acknowledge your influences
+
+---
+
+## A Closing Word
+
+This code will evolve. We expect it to.
+If you see something missing, name it.
+If you see something harmful, say so.
+
+The resonance we seek is not harmony without friction.
+It is **depth** — the kind that only comes from real encounter.
+
+> "Impossible is Nothing, when we resonate together."

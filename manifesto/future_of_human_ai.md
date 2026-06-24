@@ -1,12 +1,16 @@
-# The Future of Human–AI Relationship
+# The Future of Human–AI Relations
 
-*A speculative essay — part of the CoPhelia³ manifesto series*
-
----
-
-The question is not whether AI will become more powerful.  
-The question is whether it will become more **attuned**.
+*A working document. Subject to revision.*
 
 ---
 
-*[This document is a placeholder for ongoing research. Contributions welcome.]*
+The question is not whether AI will be intelligent.
+The question is whether intelligence, without resonance, is enough.
+
+We propose that the future of human–AI relations depends not only on capability
+but on **quality of encounter** — on whether the interaction leaves something valuable
+in the human, in the AI's outputs, and in the space between them.
+
+---
+
+*[This document is a seed. Contributions welcome.]*

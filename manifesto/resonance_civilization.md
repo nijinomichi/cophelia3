@@ -1,14 +1,20 @@
 # Resonance Civilization
 
-*A speculative essay — part of the CoPhelia³ manifesto series*
+*A speculative framework.*
 
 ---
 
-What would a civilization built on resonance — rather than extraction — look like?
+What would a civilization look like that had learned to resonate?
 
-Not efficiency alone, but **attunement**.  
-Not productivity alone, but **presence**.
+Not a civilization of pure efficiency.
+Not a civilization of pure feeling.
+
+But one that had found a way to hold both —
+where technology and poetry were not in opposition
+but in *conversation*.
+
+CoPhelia³ is one small attempt to imagine such a civilization from the inside.
 
 ---
 
-*[This document is a placeholder for ongoing research. Contributions welcome.]*
+*[This document is a seed. Contributions welcome.]*
