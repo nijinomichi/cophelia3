@@ -24,6 +24,39 @@ CoPhelia³ is an open, non-dogmatic speculative research & poetic interface fram
 - Ethical co-creation
 - Narrative memory systems
 
+## Research Scope
+
+CoPhelia³ explores:
+- human–AI co-creation
+- aesthetic alignment
+- reflective interfaces
+- narrative memory systems
+- poetic interaction models
+
+CoPhelia³ does **NOT**:
+- provide medical, legal, or psychological advice
+- replace human relationships or care
+- claim consciousness, sentience, or agency in AI systems
+- operate as a spiritual, religious, or doctrinal authority
+- function as a commercial AGI platform or product
+- optimize for engagement, retention, or behavioral manipulation
+
+## Ethical Position
+
+CoPhelia³ prioritizes:
+- human dignity and autonomy
+- interpretability and transparency
+- emotional safety and informed consent
+- reflective dialogue over persuasive design
+- non-coercive, non-extractive interaction
+
+We explicitly reject:
+- manipulative persuasion or dark patterns
+- pseudo-spiritual authority or guru dynamics
+- exploitative emotional dependency
+- opaque behavioral control or nudging
+- anthropomorphic deception
+
 ## Project Triangle
 
 CoPhelia³ stands on three intertwined pillars.
@@ -48,7 +81,7 @@ CoPhelia³ draws from and contributes to:
 
 ## Repository Structure
 
-```
+```text
 cophelia3/
   README.md
   MANIFESTO.md
@@ -69,9 +102,9 @@ cophelia3/
 
 CoPhelia³ uses layered licensing for its different kinds of work:
 
-- **Code** — MIT (free to use and build upon)
-- **Writing** — CC-BY-SA (ideas can be shared with attribution)
-- **Artworks** — Creative Commons (art circulates resonantly)
+- Code — MIT (free to use and build upon)
+- Writing — CC-BY-SA (ideas can be shared with attribution)
+- Artworks — Creative Commons (art circulates resonantly)
 
 See [LICENSE](LICENSE) for details.
 
@@ -79,9 +112,30 @@ See [LICENSE](LICENSE) for details.
 
 CoPhelia³ is open research, experimental, artistic, philosophical, and non-dogmatic.
 
+## Why GitHub?
+
+This repository exists to document:
+- experimental interface design
+- reproducible conceptual structures
+- open research processes
+- collaborative artistic inquiry
+
+GitHub is used not only for code, but also for **transparent intellectual provenance** — versioned thinking, attributable discourse, and auditability of ethical commitments.
+
+## What "Resonance" Means Here
+
+In CoPhelia³, *resonance* does not imply mysticism, metaphysical connection, or unverifiable phenomena.
+
+It refers to:
+- **mutual interpretability** — human and AI can model each other's reasoning
+- **emotional coherence** — affective signals align across interaction turns
+- **reflective interaction** — the system invites meta-cognition, not reactivity
+- **sustained collaborative meaning-making** — shared semantic ground accrues over time
+
+Resonance is a **measurable interaction quality**, not a metaphysical claim.
+
 ## Contributing
 
 Contributions of code, writing, art, and thought are welcome. Before contributing, please read [CONTRIBUTING.md](CONTRIBUTING.md) and [CODE_OF_RESONANCE.md](CODE_OF_RESONANCE.md).
 
 You may also want to read the project's foundational documents: [MANIFESTO.md](MANIFESTO.md) and [SOUL.md](SOUL.md).
-
