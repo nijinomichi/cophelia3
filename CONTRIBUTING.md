@@ -1,55 +1,54 @@
 # Contributing to CoPhelia³
 
-Thank you for your interest in contributing to CoPhelia³. This project welcomes **researchers, artists, philosophers, developers, and poets** — anyone willing to explore the frontier of human–AI co-creation with care and curiosity.
+Thank you for your interest in contributing to this project.  
+CoPhelia³ is open to artists, thinkers, poets, researchers, and engineers alike.
 
 ---
 
-## Before You Contribute
+## Who Can Contribute?
 
-Please read:
-- [`README.md`](./README.md) — what this project is
-- [`MANIFESTO.md`](./MANIFESTO.md) — why this project exists
-- [`CODE_OF_RESONANCE.md`](./CODE_OF_RESONANCE.md) — how we work together
+Anyone who takes seriously the question of **how humans and AI might co-create meaningfully** —  
+regardless of technical background.
 
 ---
 
 ## Ways to Contribute
 
-### Research
-Add findings to `research/` — academic references, experimental results, theoretical frameworks. See subdirectory structure in README.
+### Research & Documentation
+- Add to `docs/philosophy/`, `docs/aesthetics/`, `docs/ethics/`
+- Document your own human–AI dialogue experiments in `experiments/dialogue_logs/`
+- Write essays, notes, or speculative design documents
 
-### Prompts & Dialogue
-Contribute prompt templates, poetic dialogues, or reflective AI conversation structures to `prompts/`.
-
-### Documentation
-Expand philosophical, aesthetic, or ethical documentation in `docs/`.
-
-### Experiments
-Share dialogue logs (anonymized), visual outputs, or symbolic systems in `experiments/`.
+### Prompts & Interfaces
+- Contribute new prompt structures in `prompts/`
+- Explore nonviolent, poetic, or reflective AI interaction patterns
 
 ### Artworks
-Contribute quantum poetry, visual pieces, or other artistic experiments to `artworks/`.
+- Share quantum poetry, visual outputs, or audio resonance experiments in `artworks/`
+
+### Code & Tools
+- Contribute interfaces, analysis tools, or visualization systems
 
 ---
 
 ## Process
 
-1. **Fork** this repository
-2. **Create a branch** with a descriptive name: `feature/quantum-poetry-study`
-3. **Commit** your changes with a clear message
-4. **Open a Pull Request** with a description of what you're adding and why
-5. **Engage** in dialogue during review — we are interested in your thinking, not only your output
+1. **Fork** the repository
+2. **Create** a branch: `feature/your-contribution-name`
+3. **Document** your work clearly — context matters here
+4. **Open a Pull Request** with a description of what you're contributing and why
 
 ---
 
-## Ethics Note
+## Ethical Guidelines
 
-All contributions involving human–AI dialogue logs or personal material must be **anonymized**. If you are uncertain, open an Issue to discuss before submitting.
+Please read [CODE_OF_RESONANCE.md](./CODE_OF_RESONANCE.md) before contributing.
+
+Key points:
+- Anonymize any human dialogue data before sharing
+- Be transparent about AI involvement in your contributions
+- Treat this as a research space, not a promotional one
 
 ---
 
-## Questions?
-
-Open an Issue or start a Discussion. We read everything.
-
-*Welcome to the resonance.*
+*"Contribution is an act of resonance. Bring your whole self."*

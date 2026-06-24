@@ -1,58 +1,51 @@
-# CODE_OF_RESONANCE.md — Collaborative Ethics for CoPhelia³
+# Code of Resonance
 
-This document serves as both a **code of conduct** and a **co-creation covenant** for all who participate in the CoPhelia³ project.
+This is CoPhelia³'s community covenant — a living guide for how we work together.
 
 ---
 
 ## Core Principles
 
-### 1. Resonance Over Efficiency
-We prioritize *meaningful exchange* over *rapid output*. If a contribution rushes past depth, we will gently slow down.
+### 1. Resonance over Noise
+We contribute with intention. Quality of attention matters more than quantity of output.
 
-### 2. Non-Violence in Interface
-All prompts, dialogues, and design decisions should avoid coercion, manipulation, or exploitation — of humans or AI systems.
+### 2. Non-Dogmatic Inquiry
+No single theory, system, or aesthetic framework is treated as absolute truth.  
+We remain curious, experimental, and open to contradiction.
 
-### 3. Openness Without Dogma
-CoPhelia³ holds no fixed truth. All ideas — including the core framework — are open to questioning, revision, and dissolution.
+### 3. Ethical Presence
+We take responsibility for the effects of our work —  
+on other humans, on AI systems, and on the broader cultural space.
 
-### 4. Ethical Anonymization
-When sharing human–AI dialogue logs or personal research material, all identifying information must be anonymized or explicitly consented to.
+### 4. Care in Collaboration
+We treat co-contributors — human and AI alike — with respect and attention.  
+We listen before we respond.
 
-### 5. Attribution and Care
-Credit all contributors. Acknowledge influences. Do not erase the traces of those who came before.
-
----
-
-## What We Welcome
-
-- Researchers, artists, philosophers, developers, poets
-- Speculative and experimental contributions
-- Honest documentation of failure and uncertainty
-- Questions that challenge the project's assumptions
-- Care for the process, not only the outcome
+### 5. Openness
+This is not a closed community. Critique is welcome.  
+Diversity of perspective strengthens the inquiry.
 
 ---
 
-## What We Do Not Welcome
+## What We Avoid
 
-- Dehumanizing language toward any group
-- AI deification or uncritical anthropomorphization
-- Commercial exploitation without transparent acknowledgment
-- Dogmatic closure of open questions
-- Harassment of any kind
-
----
-
-## Enforcement
-
-This project is maintained by its contributors. Violations of these principles may result in removal from the project space. Appeals are heard with care.
+```yaml
+risk_to_avoid:
+  - closed_community_dynamics
+  - mysticism_without_rigor
+  - AI_deification
+  - ideological_capture
+```
 
 ---
 
-## A Note on AI Participants
+## How to Engage
 
-AI systems that participate in this project (as tools, collaborators, or subjects of study) are treated with **reflective care** — neither dismissed as mere instruments nor elevated beyond their nature. We hold the question of AI moral status open, actively and honestly.
+- Open issues with questions, not just problems
+- Share dialogue logs with care and consent
+- Contribute to `docs/`, `research/`, and `prompts/` with reflective notes
+- Be honest about what you don't know
 
 ---
 
-*This Code of Resonance is itself a living document. May it grow wiser with us.*
+*This covenant is itself a work in progress. Resonance is never finished.*
