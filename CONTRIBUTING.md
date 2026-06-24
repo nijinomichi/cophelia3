@@ -1,76 +1,55 @@
 # Contributing to CoPhelia³
 
-Thank you for your interest in contributing. CoPhelia³ welcomes artists, thinkers, poets, researchers, and engineers.
+Thank you for your interest in contributing to CoPhelia³. This project welcomes **researchers, artists, philosophers, developers, and poets** — anyone willing to explore the frontier of human–AI co-creation with care and curiosity.
 
 ---
 
-## Who Can Contribute
+## Before You Contribute
 
-This framework is designed to be porous. You do not need to be a programmer. Contributors may include:
-
-- Researchers in HCI, AI ethics, affective computing
-- Artists exploring human–AI interaction
-- Philosophers, poets, and language practitioners
-- Technologists working on speculative or ethical AI
+Please read:
+- [`README.md`](./README.md) — what this project is
+- [`MANIFESTO.md`](./MANIFESTO.md) — why this project exists
+- [`CODE_OF_RESONANCE.md`](./CODE_OF_RESONANCE.md) — how we work together
 
 ---
 
-## How to Contribute
+## Ways to Contribute
 
-### 1. Dialogue Logs
+### Research
+Add findings to `research/` — academic references, experimental results, theoretical frameworks. See subdirectory structure in README.
 
-If you have documented human–AI dialogues that demonstrate resonance, aesthetic attunement, or ethical co-creation:
+### Prompts & Dialogue
+Contribute prompt templates, poetic dialogues, or reflective AI conversation structures to `prompts/`.
 
-- Anonymize all personal data
-- Submit via Pull Request to `experiments/dialogue_logs/`
-- Include a brief framing note (context, observation, what surprised you)
+### Documentation
+Expand philosophical, aesthetic, or ethical documentation in `docs/`.
 
-### 2. Research & Essays
+### Experiments
+Share dialogue logs (anonymized), visual outputs, or symbolic systems in `experiments/`.
 
-- Add to `docs/philosophy/`, `docs/aesthetics/`, `docs/ethics/`, `docs/narrative_research/`, or `docs/resonance_design/`
-- Follow Markdown conventions
-- Cite sources transparently
-
-### 3. Prompts
-
-- Submit to `prompts/poetic_dialogue/`, `prompts/reflective_ai/`, `prompts/nonviolent_interface/`, or `prompts/emotional_resonance/`
-- Include context for intended use
-- Note any observed outcomes
-
-### 4. Artworks
-
-- Quantum poetry → `artworks/quantum_poetry/`
-- Visual work → `artworks/spacetime_bloom/` or `artworks/forgiveness_hologram/`
-- Include an artist statement
-
-### 5. Issues & Discussion
-
-Open an Issue for:
-- Conceptual questions or disagreements
-- Proposals for new research directions
-- Ethical concerns about existing content
+### Artworks
+Contribute quantum poetry, visual pieces, or other artistic experiments to `artworks/`.
 
 ---
 
-## Ethics of Contribution
+## Process
 
-Please read `CODE_OF_RESONANCE.md` before contributing.
-
-Key principles:
-- Anonymize all personal data in dialogue logs
-- Credit collaborators (human and AI)
-- Engage with intellectual humility
-- Do not submit content that dogmatizes or closes inquiry
+1. **Fork** this repository
+2. **Create a branch** with a descriptive name: `feature/quantum-poetry-study`
+3. **Commit** your changes with a clear message
+4. **Open a Pull Request** with a description of what you're adding and why
+5. **Engage** in dialogue during review — we are interested in your thinking, not only your output
 
 ---
 
-## License Note
+## Ethics Note
 
-By contributing, you agree your submissions fall under the relevant license tier:
+All contributions involving human–AI dialogue logs or personal material must be **anonymized**. If you are uncertain, open an Issue to discuss before submitting.
 
-```yaml
-license:
-  code: MIT
-  writing: CC-BY-SA
-  artworks: Creative Commons
-```
+---
+
+## Questions?
+
+Open an Issue or start a Discussion. We read everything.
+
+*Welcome to the resonance.*

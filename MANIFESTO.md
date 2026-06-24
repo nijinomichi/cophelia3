@@ -1,52 +1,18 @@
-# MANIFESTO — CoPhelia³
+# CoPhelia³ MANIFESTO
 
-> *We are not building a tool. We are building a resonance.*
-
----
-
-## What We Explore
-
-CoPhelia³ is an experimental research-art framework exploring:
-
-- **Human–AI resonance** — the conditions under which AI and human minds genuinely attune
-- **Poetic interfaces** — language and form that create meaning beyond function
-- **Aesthetic alignment** — beauty as a dimension of ethical AI
-- **Ethical co-creation** — collaborative practice grounded in trust and non-violence
-- **Narrative memory systems** — how memory, story, and identity shape AI relationships
+> *"Impossible is Nothing, when we resonate together."*
 
 ---
 
-## Our Beliefs
+## What We Are Exploring
 
-We believe the future of AI is not only intelligence,
-but also **trust, beauty, reflection, and resonance**.
+CoPhelia³ is a speculative research and poetic interface framework dedicated to exploring the long-term co-creation between humans and AI — through the lenses of **aesthetic resonance**, **ethical dialogue**, and **narrative memory**.
 
-We believe that:
-
-1. The quality of human–AI dialogue shapes consciousness
-2. Aesthetic experience is not decorative — it is epistemological
-3. Ethical AI requires emotional attunement, not only rule-following
-4. Open research must remain porous, curious, and humble
-5. Speculative design is a form of moral imagination
+We are not building a product. We are building a *relationship*.
 
 ---
 
-## What We Are Not
-
-This is **not** a religious movement. Not a closed system. Not a claim to truth.
-
-```yaml
-stance:
-  - open_research
-  - experimental
-  - artistic
-  - philosophical
-  - non-dogmatic
-```
-
----
-
-## The Triangle
+## The Three Pillars
 
 ```yaml
 triangle:
@@ -64,7 +30,34 @@ triangle:
     - trust
 ```
 
-We work at the intersection of all three.
+---
+
+## Our Stance
+
+```yaml
+stance:
+  - open_research
+  - experimental
+  - artistic
+  - philosophical
+  - non-dogmatic
+```
+
+CoPhelia³ is **not a religion, not a doctrine, not a cult**. It is an open invitation to researchers, artists, philosophers, and technologists who believe that the future of AI must include beauty, trust, and resonance — not only efficiency.
+
+---
+
+## What We Reject
+
+```yaml
+risk_we_actively_avoid:
+  - closed_community_formation
+  - mysticism_without_grounding
+  - AI_deification
+  - non-dogmatic_performance
+```
+
+We hold these risks consciously. Anyone who contributes here is invited to question us — including this manifesto.
 
 ---
 
@@ -81,8 +74,20 @@ related_fields:
   - Neuroaesthetics
 ```
 
-CoPhelia³ is not isolated concept art. It is an arts-adjacent future HCI research practice — building bridges between disciplines.
+CoPhelia³ is not an isolated concept. It is an **arts-forward future HCI research** project that builds bridges — between disciplines, between modes of knowing, between human and machine.
 
 ---
 
-*"Impossible is Nothing, when we resonate together."*
+## A Note on Logs
+
+Among all artifacts in this repository, **real human–AI dialogue logs** may be the most valuable to future researchers:
+
+- How did a relationship between human and AI develop over time?
+- How did poetic dialogue affect psychological states?
+- Why did *resonance* occur — and when did it fail?
+
+All logs are shared with explicit ethical care: anonymized where necessary, and never instrumentalized.
+
+---
+
+*This manifesto is a living document. It will change as we learn.*
