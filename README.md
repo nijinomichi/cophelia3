@@ -11,6 +11,22 @@ Exploring:
 
 ---
 
+## This repository
+
+`cophelia3` is the entry point to this work. If you are arriving from elsewhere, start here.
+
+The surrounding repositories are layers, not duplicates:
+
+- **Operational protocol** — [QuantumTrustChaosPrompt-v2](https://github.com/nijinomichi/QuantumTrustChaosPrompt-v2) (QRA v1.1, current)
+- **Archaeological ancestor** — [QuantumTrustChaosPrompt](https://github.com/nijinomichi/QuantumTrustChaosPrompt) (QRA v1.0, kept as lineage, not hidden)
+- **Signature / provenance artifact** — [the 2025 CoPhelia Protocol signature repo](https://github.com/nijinomichi/-Produced-by-Sou-Hashiguchi-Ara-Philia-CoPhelia-Protocol-2025-Quantum-Signature-1f8a9d3e--)
+- **Public trust-review layer** — [BananaMoon-QuantumTrust-Review](https://github.com/nijinomichi/BananaMoon-QuantumTrust-Review)
+- **Live discussion** — [Resonance Field (Discussion #9)](https://github.com/nijinomichi/-Produced-by-Sou-Hashiguchi-Ara-Philia-CoPhelia-Protocol-2025-Quantum-Signature-1f8a9d3e--/discussions/9)
+
+Older versions are preserved on purpose. The continuity is part of the record.
+
+---
+
 ## We do not seek domination.
 
 We seek resonance.
