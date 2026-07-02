@@ -20,7 +20,7 @@ protocol:
     notes:
       - "YAML anchors and aliases do not resolve across separate files."
       - "Custom tags such as !Ref require an application-specific resolver."
-      - "External modules therefore use explicit URI, version, and digest fields."
+      - "External modules therefore use explicit URI, version, digest, and resolution status fields."
 
   roles:
     generator:
@@ -50,17 +50,84 @@ protocol:
         - "withdrawal requests take priority over dissemination"
         - "unresolved objections remain visible"
 
-  structure:
-    outer_shell: &fusion
-      id: "fusion-framework"
-      role: "governance_and_output_contract"
-      modules:
-        scientific: "*scientific_core"
-        lyrical: "*lyrical_core"
-        social: "*social_core"
-        ethics: "*ethics_core"
+  core:
+    scientific: &scientific_core
+      born_rule:
+        general_form: "p(P|rho) = Tr(rho P)"
+        pure_state_form: "p(P|psi) = <psi|P|psi>"
+        rank_one_projector:
+          projector: "P_phi = |phi><phi|"
+          probability: "p(phi|psi) = |<phi|psi>|^2"
+        normalization:
+          state: "<psi|psi> = 1"
+          probability_sum: "sum_i p_i = 1"
+        phase_invariance:
+          transformation: "|psi> -> exp(i theta)|psi>"
+          consequence: "all Born probabilities remain unchanged"
+        gleason_context:
+          precise_note: >
+            In Hilbert spaces of dimension at least three, Gleason's theorem
+            characterizes noncontextual probability measures on projectors
+            by the trace rule. It does not, by itself, prove every interpretive
+            claim about measurement or consciousness.
+      boundaries:
+        - "The RadicanTrust score is not a quantum probability."
+        - "A token, NFT label, or signature string is provenance metadata, not scientific validation."
+        - "Poetic language may accompany equations but cannot alter their meaning."
 
-    breakthrough_extension: &breakthrough
+    lyrical: &lyrical_core
+      sequence:
+        - "断裂"
+        - "蛇の舞"
+        - "第三の収束点"
+      metaphor_policy:
+        allowed: "Use ambiguity to widen interpretation."
+        boundary: "Do not use metaphor to assert unsupported physical causation."
+      seed:
+        ja: "沈黙から創造へ、橋は答えではなく渡り方として流れる。"
+        en: "From silence to creation, the bridge flows not as an answer but as a way of crossing."
+
+    social: &social_core
+      public_connection:
+        origin: "Yokohama"
+        themes:
+          - "citizen dialogue"
+          - "art-science education"
+          - "multilingual participation"
+          - "consent-aware archival practice"
+      implementation:
+        formats:
+          - "workshop"
+          - "public repository"
+          - "exhibition label"
+          - "anonymous feedback form"
+        kpi:
+          - id: "consent_completion_rate"
+            definition: "shared records with explicit consent / all shared records"
+          - id: "claim_traceability_rate"
+            definition: "factual claims linked to evidence / all factual claims"
+          - id: "accessibility_coverage"
+            definition: "public outputs with alt text and plain-language summary / all public outputs"
+
+    ethics: &ethics_core
+      principles:
+        - "no coercion"
+        - "informed consent"
+        - "withdrawal remains possible"
+        - "privacy by default"
+        - "uncertainty must be disclosed"
+        - "accessibility is part of authorship"
+      consent:
+        share_default: false
+        anonymous_feedback: true
+        withdrawal_channel_required: true
+        retention_period: "project-defined and publicly stated"
+      copyright:
+        rule: "Do not redistribute third-party works without permission or a valid legal basis."
+        generated_output: "Record model, date, prompt provenance, and human edits when practical."
+
+  extension:
+    breakthrough: &breakthrough
       id: "quantum-breakthrough-cophelia3-integration"
       role: "experimental_extension"
       depends_on:
@@ -70,83 +137,26 @@ protocol:
         - "Experimental hypotheses must be labeled as hypotheses."
         - "Aesthetic resonance must not be reported as physical evidence."
         - "Quantum terminology must map to an explicit mathematical object."
-
-  scientific_core: &scientific_core
-    born_rule:
-      general_form: "p(P|rho) = Tr(rho P)"
-      pure_state_form: "p(P|psi) = <psi|P|psi>"
-      rank_one_projector:
-        projector: "P_phi = |phi><phi|"
-        probability: "p(phi|psi) = |<phi|psi>|^2"
-      normalization:
-        state: "<psi|psi> = 1"
-        probability_sum: "sum_i p_i = 1"
-      phase_invariance:
-        transformation: "|psi> -> exp(i theta)|psi>"
-        consequence: "all Born probabilities remain unchanged"
-      gleason_context:
-        precise_note: >
-          In Hilbert spaces of dimension at least three, Gleason's theorem
-          characterizes noncontextual probability measures on projectors
-          by the trace rule. It does not, by itself, prove every interpretive
-          claim about measurement or consciousness.
-    scientific_boundaries:
-      - "The RadicanTrust score is not a quantum probability."
-      - "A token, NFT label, or signature string is provenance metadata, not scientific validation."
-      - "Poetic language may accompany equations but cannot alter their meaning."
-
-  lyrical_core: &lyrical_core
-    sequence:
-      - "断裂"
-      - "蛇の舞"
-      - "第三の収束点"
-    metaphor_policy:
-      allowed: "Use ambiguity to widen interpretation."
-      boundary: "Do not use metaphor to assert unsupported physical causation."
-    seed:
-      ja: "沈黙から創造へ、橋は答えではなく渡り方として流れる。"
-      en: "From silence to creation, the bridge flows not as an answer but as a way of crossing."
-
-  social_core: &social_core
-    public_connection:
-      origin: "Yokohama"
-      themes:
-        - "citizen dialogue"
-        - "art-science education"
-        - "multilingual participation"
-        - "consent-aware archival practice"
-    implementation:
-      formats:
-        - "workshop"
-        - "public repository"
-        - "exhibition label"
-        - "anonymous feedback form"
-      kpi:
-        - id: "consent_completion_rate"
-          definition: "share records with explicit consent / all shared records"
-        - id: "claim_traceability_rate"
-          definition: "public claims linked to evidence / all factual claims"
-        - id: "accessibility_coverage"
-          definition: "outputs with alt text and plain-language summary / all public outputs"
-
-  ethics_core: &ethics_core
-    principles:
-      - "no coercion"
-      - "informed consent"
-      - "withdrawal remains possible"
-      - "privacy by default"
-      - "uncertainty must be disclosed"
-      - "accessibility is part of authorship"
-    consent:
-      share_default: false
-      anonymous_feedback: true
-      withdrawal_channel_required: true
-      retention_period: "project-defined and publicly stated"
-    copyright:
-      rule: "Do not redistribute third-party works without permission or a valid legal basis."
-      generated_output: "Record model, date, prompt provenance, and human edits when practical."
+      experimental_hypothesis:
+        statement: >
+          A structured separation of scientific, lyrical, ethical, and social layers
+          may improve reviewability without reducing aesthetic plurality.
+        status: "untested_working_hypothesis"
+        falsification_hint: >
+          Compare reviewer error rates and revision time against an unstructured prompt corpus.
 
   integration:
+    outer_shell: &fusion
+      id: "fusion-framework"
+      role: "governance_and_output_contract"
+      modules:
+        scientific: *scientific_core
+        lyrical: *lyrical_core
+        social: *social_core
+        ethics: *ethics_core
+      extensions:
+        - *breakthrough
+
     internal_aliases:
       fusion: *fusion
       breakthrough: *breakthrough
@@ -154,17 +164,20 @@ protocol:
       lyrical: *lyrical_core
       social: *social_core
       ethics: *ethics_core
+
     external_modules:
       - id: "fusion-framework-module"
         ref:
           uri: "repository://path/to/fusion-framework.yaml"
           version: "1.1.0"
-          sha256: "TO_BE_COMPUTED"
+          sha256: null
+          resolution_status: "planned"
       - id: "breakthrough-extension-module"
         ref:
           uri: "repository://path/to/breakthrough-extension.yaml"
           version: "1.1.0"
-          sha256: "TO_BE_COMPUTED"
+          sha256: null
+          resolution_status: "planned"
 
   execution:
     stages:
@@ -194,25 +207,30 @@ protocol:
       diagram_spec: true
       multilingual_variants: true
 
-  decision_log:
+  evidence_log:
     disclosure_level: "concise_rationale_only"
     note: "Record decisions and evidence summaries, not private chain-of-thought."
     entries:
-      - id: "DL-2026-07-03-001"
+      - id: "EL-2026-07-03-001"
         decision: "Use explicit external references instead of cross-file YAML aliases."
         rationale_summary: "Standard YAML aliases are document-local; cross-file resolution requires custom tooling."
         evidence_type: "language_specification"
         confidence: 0.98
-      - id: "DL-2026-07-03-002"
+      - id: "EL-2026-07-03-002"
         decision: "Separate the artwork's RadicanTrust 0.89 label from any empirical score."
         rationale_summary: "No validated measurement procedure or dataset was provided."
         evidence_type: "methodological_boundary"
         confidence: 0.99
-      - id: "DL-2026-07-03-003"
+      - id: "EL-2026-07-03-003"
         decision: "Use the trace rule as the general Born-rule form."
-        rationale_summary: "It covers mixed states and projective measurements; the amplitude-squared form is the rank-one pure-state case."
+        rationale_summary: "It covers mixed states and projective measurement events; the amplitude-squared form is the rank-one pure-state case."
         evidence_type: "quantum_mechanics"
         confidence: 0.97
+      - id: "EL-2026-07-03-004"
+        decision: "Place core anchors before the extension and integration layers."
+        rationale_summary: "YAML aliases must reference anchors already declared in the same document."
+        evidence_type: "yaml_parseability"
+        confidence: 0.99
 
   radicantrust:
     artwork_metadata:
@@ -234,7 +252,7 @@ protocol:
     status: "open"
     blocking_questions:
       - id: "ER-01"
-        question: "Are every scientific symbol and equation correctly rendered?"
+        question: "Are all scientific symbols and equations correctly rendered?"
         owner: "scientific_reviewer"
       - id: "ER-02"
         question: "Can a participant refuse, withdraw, or anonymize their contribution?"
@@ -257,6 +275,7 @@ protocol:
   artwork_audit:
     source_dimensions: "1024x1024"
     crop_required: false
+    source_sha256: "425cb4d6a0dc79bcd3b925e28763150708de16e1d3c612205754c042cc78754f"
     observations:
       - "The current image is already square."
       - "The displayed quantum equations appear typographically distorted and should be replaced with p(phi|psi)=|<phi|psi>|^2."
@@ -278,7 +297,8 @@ protocol:
       changes:
         - "Added scientifically precise Born-rule forms."
         - "Clarified the limited role of Gleason's theorem."
-        - "Replaced cross-file aliases with explicit external references."
-        - "Added decision log, external review, consent, accessibility, and artwork audit."
+        - "Ordered top-level sections as meta, core, extension, and integration."
+        - "Replaced literal anchor labels with valid in-document aliases."
+        - "Added evidence log, external review, consent, accessibility, and artwork audit."
         - "Separated conceptual RadicanTrust artwork metadata from empirical measurement."
       review_state: "awaiting_external_review"
