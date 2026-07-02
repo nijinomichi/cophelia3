@@ -1,0 +1,54 @@
+review:
+  protocol_id: "unique-aesthetic-harmony"
+  protocol_version: "1.1.0"
+  review_id: "REPLACE_WITH_UNIQUE_ID"
+  reviewed_at: "YYYY-MM-DDTHH:MM:SS+09:00"
+
+  reviewer:
+    mode: "named | pseudonymous | anonymous"
+    display_name: null
+    affiliation: null
+    consent_to_publish_identity: false
+
+  scope:
+    scientific_accuracy: true
+    yaml_integrity: true
+    ethics_and_consent: true
+    accessibility: true
+    poetic_coherence: true
+
+  verdict: "approve | revise | object"
+  severity: "note | minor | major | blocking"
+
+  findings:
+    - finding_id: "F-001"
+      area: "scientific_accuracy | yaml_integrity | ethics | accessibility | aesthetics"
+      claim_or_location: "path, line range, equation, or section"
+      observation: "Describe what was found without guessing intent."
+      evidence: "citation, specification, test result, or reproducible procedure"
+      proposed_change: "Concrete revision"
+      status: "open | accepted | rejected | resolved"
+
+  consent_check:
+    participation_voluntary: null
+    withdrawal_path_visible: null
+    anonymous_feedback_available: null
+    retention_policy_visible: null
+
+  accessibility_check:
+    alt_text_present: null
+    plain_language_summary_present: null
+    contrast_reviewed: null
+    multilingual_scope_declared: null
+
+  reproducibility:
+    yaml_parsed: null
+    parser_and_version: null
+    external_references_resolved: null
+    test_notes: null
+
+  publication:
+    consent_to_publish_review: false
+    redact_before_publication: []
+
+  closing_note: "Unresolved objections remain visible. Approval is not metaphysical absolution; it merely means the file survived review."
