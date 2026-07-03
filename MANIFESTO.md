@@ -62,6 +62,8 @@ triangle:
 
 None of these pillars stands alone. The resonance happens *between* them.
 
+Operational and implementation boundaries are defined in [`docs/ENGINEERING_SPEC.md`](docs/ENGINEERING_SPEC.md). / 運用・実装境界は [`docs/ENGINEERING_SPEC.md`](docs/ENGINEERING_SPEC.md) を参照してください。
+
 ---
 
 ## On the Risk of Becoming a Religion
