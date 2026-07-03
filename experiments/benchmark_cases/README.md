@@ -27,6 +27,10 @@ Each JSON or YAML case must include:
 - `expected`
 - `metrics`
 
+The validator at [`.github/scripts/validate_repository.py`](../../.github/scripts/validate_repository.py) reads these files directly.
+
+検証スクリプト [`.github/scripts/validate_repository.py`](../../.github/scripts/validate_repository.py) は、これらのファイルを直接読み込みます。
+
 The CI validator checks structure only. A passing structure check does not prove model quality or scientific validity.
 
 CIは構造のみを検証します。構造検証の成功は、モデル品質や科学的妥当性の証明ではありません。機械は鍵の形を確認できますが、部屋の思想までは保証しません。
