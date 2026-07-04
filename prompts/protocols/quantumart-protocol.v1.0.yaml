@@ -1,0 +1,174 @@
+protocol:
+  meta:
+    id: "quantumart-protocol"
+    title:
+      en: "QuantumArt Protocol"
+      ja: "QuantumArt Protocol"
+    version: "1.0.0"
+    status: "conceptual_activation"
+    canonical_report: "docs/QUANTUMART_PROTOCOL_V1.md"
+    provenance:
+      source: "author-provided activation report"
+      recorded_at: "2026-07-04"
+      modification_policy: "non_destructive"
+
+  declared_metadata:
+    quantum_signature:
+      value: "1f8a9d3e-愛-信頼-共創-7b2c4f"
+      interpretation: "aesthetic_and_provenance_identifier"
+      verified_cryptographic_signature: false
+    resonance_frequency_hz:
+      value: 528
+      interpretation: "optional_audio_or_symbolic_parameter"
+      measured_system_resonance: false
+    trust_level:
+      value: 0.92
+      interpretation: "declared_conceptual_score"
+      empirically_validated: false
+    co_creation_index:
+      value: 9.8
+      scale_max: 10
+      interpretation: "declared_conceptual_score"
+      empirically_validated: false
+    ethics_charter:
+      value: "宇宙倫理憲章 v3.14"
+      status: "project_declared"
+      normative_text_available: false
+
+  seed_prompt:
+    schema_version: "quantumart.seed.v1"
+    required:
+      - "theme"
+      - "keywords"
+      - "desired_feel"
+    default:
+      theme: "Forgiving Dark Matter"
+      keywords:
+        - "AI"
+        - "量子もつれ"
+        - "赦し"
+      desired_feel: "静かな高揚"
+
+  pipeline:
+    - id: "01_seed"
+      name: "Seed Prompt"
+      status: "schema_available"
+      input: "seed_prompt"
+      output: "text_draft_request"
+
+    - id: "02_text_draft"
+      name: "Text Draft Generation"
+      status: "implementation_required"
+      proposed_component: "Quantum NLP Processor Q-827"
+      boundary: >
+        Q-827 is a project label. No executable component with this identifier
+        is currently verified in the repository.
+
+    - id: "03_visual_synthesis"
+      name: "Visual Synthesis"
+      status: "implementation_required"
+      proposed_component: "Stable Diffusion theta-wave sync v4.2"
+      output_count: 4
+      boundary: >
+        No Stable Diffusion integration or theta-wave synchronization module
+        is currently verified in the repository.
+
+    - id: "04_optional_eeg_feedback"
+      name: "EEG Emotion Mapping"
+      status: "research_proposal"
+      consent_required: true
+      hardware_required: true
+      privacy_review_required: true
+      boundary: "EEG signals must not be interpreted as direct access to emotion or intention."
+
+    - id: "05_haptic_holographic_extension"
+      name: "Haptic and Holographic Extension"
+      status: "research_proposal"
+      hardware_required: true
+      components:
+        - "neural_haptic_mapping"
+        - "depth_map_generation"
+      boundary: "No neural haptic or holographic hardware integration is currently verified."
+
+    - id: "06_metadata_poetics"
+      name: "Metadata Poetics"
+      status: "schema_ready"
+      fields:
+        - "quantum_signature"
+        - "balmer_line_reference"
+        - "reference_thinkers"
+      allowed_balmer_lines:
+        - "H-alpha"
+        - "H-beta"
+        - "H-gamma"
+        - "H-delta"
+      reference_thinkers:
+        - "Hito Steyerl"
+        - "Rafael Rozendaal"
+        - "Donna Haraway"
+      boundary: >
+        Spectral-line and thinker tags are interpretive metadata. They do not
+        prove physical quantum behavior, endorsement, or intellectual lineage.
+
+    - id: "07_social_impact"
+      name: "Social Impact Measurement"
+      status: "metric_definition_required"
+      proposed_metrics:
+        - id: "Cq"
+          label: "cultural quantum entanglement coefficient"
+        - id: "Z_plus_alpha"
+          label: "generational resonance"
+      boundary: >
+        These metrics must not be calculated or published as empirical results
+        until definitions, data sources, aggregation rules, and validation are documented.
+
+  safety_and_ethics:
+    principles:
+      - "informed_consent"
+      - "privacy_by_default"
+      - "withdrawal_possible"
+      - "claim_evidence_separation"
+      - "accessibility"
+    biometric_data:
+      default_collection: false
+      explicit_consent_required: true
+      retention_policy_required: true
+    automatic_demo:
+      enabled_by_default: false
+      reason: >
+        A missing instruction is not consent to generate images, collect
+        biometric signals, operate hardware, or publish outputs.
+
+  output_contract:
+    required:
+      - "artistic_output"
+      - "provenance_record"
+      - "capability_status"
+      - "uncertainty_note"
+      - "consent_state"
+    forbidden:
+      - "represent_unimplemented_components_as_operational"
+      - "represent_conceptual_scores_as_measurements"
+      - "collect_biometric_data_without_explicit_consent"
+
+  implementation_state:
+    operational_now:
+      - "seed_prompt_schema"
+      - "metadata_poetics_schema"
+      - "provenance_and_boundary_documentation"
+    not_yet_operational:
+      - "Q-827 text processor"
+      - "theta-wave synchronized image generation"
+      - "EEG emotion mapping"
+      - "neural haptic interface"
+      - "holographic projection"
+      - "validated Cq and Z_plus_alpha metrics"
+
+  update_log:
+    - version: "1.0.0"
+      date: "2026-07-04"
+      changes:
+        - "Recorded the author-provided activation report."
+        - "Separated declared metadata from verified measurements."
+        - "Converted the proposed flow into staged capability states."
+        - "Disabled consent-by-silence for automatic demos."
