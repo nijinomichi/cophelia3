@@ -1,0 +1,61 @@
+adapter_contract:
+  id: "quantumart-to-bana-graph.v0.1"
+  status: "proposed_reviewable_integration"
+  direction: "cophelia3_to_bana_quantum_graph"
+  mode: "read_only_source_append_only_output"
+
+  source:
+    repository: "nijinomichi/cophelia3"
+    protocol_path: "prompts/protocols/quantumart-protocol.v1.0.yaml"
+    seed_schema: "quantumart.seed.v1"
+    canonical_owner: true
+
+  target:
+    repository: "nijinomichi/bana-quantum-graph-"
+    adapter_path: "adapters/quantumart_protocol_adapter.py"
+    contract_document: "docs/QUANTUMART_PROTOCOL_ADAPTER.md"
+    canonical_graph_path: "quantum_trust_graph.yaml"
+    canonical_owner: true
+
+  output:
+    artifact_type: "experiment_yaml"
+    canonical_graph_mutation: false
+    human_review_required_before_merge: true
+    provenance_required:
+      - "protocol_sha256"
+      - "seed_sha256"
+      - "adapter_id"
+      - "generated_at"
+      - "review_status"
+
+  metric_semantics:
+    quantumart_declared_trust:
+      type: "conceptual_metadata"
+      included_in_radicantrust_graph_score: false
+      empirical_validation_required: true
+    radicantrust_graph:
+      type: "structural_heuristic"
+      inputs:
+        - "transparency"
+        - "inclusivity"
+        - "reciprocity"
+        - "density_derived_forgiveness"
+      is_quantum_probability: false
+    born_rule_probability:
+      computed_by_adapter: false
+
+  consent:
+    explicit_execution_required: true
+    silence_is_consent: false
+    biometric_processing: false
+    automatic_publication: false
+
+  compatibility:
+    protocol: ">=1.0.0,<2.0.0"
+    adapter: "0.1.x"
+    breaking_change_policy: "new_contract_version_required"
+
+  references:
+    cophelia3_document: "docs/integrations/BANA_QUANTUM_GRAPH_ADAPTER.md"
+    bana_quantum_graph_repository: "https://github.com/nijinomichi/bana-quantum-graph-"
+    bana_quantum_graph_document: "docs/QUANTUMART_PROTOCOL_ADAPTER.md"

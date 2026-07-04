@@ -1,0 +1,25 @@
+seed_prompt:
+  schema_version: "quantumart.seed.v1"
+  seed_id: "forgiving-dark-matter"
+  theme: "Forgiving Dark Matter"
+  keywords:
+    - "AI"
+    - "量子もつれ"
+    - "赦し"
+  desired_feel: "静かな高揚"
+
+execution:
+  status: "not_started"
+  requires_explicit_user_action: true
+  automatic_demo_on_silence: false
+
+provenance:
+  protocol: "prompts/protocols/quantumart-protocol.v1.0.yaml"
+  created_at: "2026-07-04"
+  source: "author-provided default theme"
+
+boundaries:
+  - "No image generation has been executed."
+  - "No biometric or EEG data has been collected."
+  - "No haptic or holographic hardware has been activated."
+  - "No social-impact metric has been computed."
