@@ -57,4 +57,5 @@ adapter_contract:
 
   references:
     cophelia3_document: "docs/integrations/BANA_QUANTUM_GRAPH_ADAPTER.md"
-    bana_quantum_graph_document: "https://github.com/nijinomichi/bana-quantum-graph-/blob/feat/quantumart-adapter-v0.1/docs/QUANTUMART_PROTOCOL_ADAPTER.md"
+    bana_quantum_graph_repository: "https://github.com/nijinomichi/bana-quantum-graph-"
+    bana_quantum_graph_document: "docs/QUANTUMART_PROTOCOL_ADAPTER.md"
