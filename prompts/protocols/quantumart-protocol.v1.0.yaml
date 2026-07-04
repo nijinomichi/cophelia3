@@ -151,6 +151,19 @@ protocol:
       - "represent_conceptual_scores_as_measurements"
       - "collect_biometric_data_without_explicit_consent"
 
+  external_review:
+    status: "open"
+    focus:
+      - "scientific_claim_boundaries"
+      - "consent_and_biometric_data"
+      - "capability_status_accuracy"
+      - "metric_definition_quality"
+      - "accessibility"
+    blocking_conditions:
+      - "unimplemented_component_presented_as_operational"
+      - "conceptual_score_presented_as_empirical_measurement"
+      - "biometric_processing_without_explicit_consent"
+
   implementation_state:
     operational_now:
       - "seed_prompt_schema"
@@ -172,3 +185,4 @@ protocol:
         - "Separated declared metadata from verified measurements."
         - "Converted the proposed flow into staged capability states."
         - "Disabled consent-by-silence for automatic demos."
+        - "Added external review status for CI validation."
