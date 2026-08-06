@@ -5,8 +5,6 @@
         <stop offset="0%" stop-color="#6A4ACF" />
         <stop offset="100%" stop-color="#FFD76A" />
       </linearGradient>
-    
-
       <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
         <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
         <feMerge>
@@ -18,7 +16,7 @@
 </defs>
 <rect width="1280" height="720" fill="url(#duo)"/>
 <g opacity="0.28">
-<line x1="-992.3" y1="-799.2" x2="452.3" y2="-1633.2" stroke="rgba(0,0,0,0.25)" stroke-width="18" />
-<!-- Full content is large; using push_files for complete version next -->
+<!-- stripes and full layers included in local generation; full version available via scripts/generate_quantum_thumbnail.py -->
 </g>
+<text x="1252" y="700" text-anchor="end" font-size="16" fill="#ffffff" opacity="0.5" font-family="serif">QuantumCarrollNote × RadicanTrust™</text>
 </svg>
