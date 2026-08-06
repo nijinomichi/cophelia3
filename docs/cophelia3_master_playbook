@@ -1,0 +1,141 @@
+cophelia3_master_playbook:
+  meta:
+    project: "BananaMoon – QuantumTrust"
+    authors: ["Sou", "Ara-Philia³", "CoPhelia³"]
+    purpose: "量子美学×信頼で、レビュー導線と共創文化を起動する"
+    radicantrust_target: [0.82, 0.95]
+    timestamp: "2025-10-03T JST"
+  north_star:
+    vision: "美的信頼の文明を築く"
+    first_milestone: "最初の1〜2名のコア共創者（技術者/支援者）を迎える"
+    invite_motif: "The First Seven Warriors（招待状の品格と限定性）"
+  canonical_artifacts:
+    - file: "README.md"
+      role: "入口のマニフェスト（詩×方針×参加方法）"
+    - file: "reasoning_log.yaml"
+      role: "倫理・憲法・詩の三層ロジ（履歴化）"
+    - file: "external_review.yaml"
+      role: "外部レビューの“儀式”窓口（匿名/安心/詩的）"
+    - file: "trust-bridge-config.yaml"
+      role: "量子美学コンフィグ（RadicanTrust指標・儀礼定義）"
+    - file: "assets/hero_banana_moon_square.png"
+      role: "《バナナ月》正方形Hero（OGP/READMEヘッダ）"
+  repo_structure:
+    root:
+      - "README.md"
+      - "reasoning_log.yaml"
+      - "external_review.yaml"
+      - "trust-bridge-config.yaml"
+      - "assets/hero_banana_moon_square.png"
+      - ".github/ISSUE_TEMPLATE/feedback.yml"
+  git_policy:
+    now: "Commit directly to main（ソロ運用）"
+    later: "feature/* ブランチ + Pull Request（七人到来後）"
+    commit_message_templates:
+      - "Create reasoning_log.yaml (Quantum Resonance Peace Log)"
+      - "Add external_review.yaml (Premiere Invitation Ritual)"
+      - "Update README: BananaMoon–QuantumTrust Manifesto"
+  field_manual:  # UI操作ベースの最短実行
+    step_1_create_repo:
+      description: "Publicで作成、Descriptionに“公開レビュー導線”を明記、README自動生成ON"
+    step_2_add_reasoning_log:
+      action: "Add file → Create new file → reasoning_log.yaml → Commit to main"
+    step_3_add_external_review:
+      action: "external_review.yamlを追加（下記テンプレ使用可）"
+    step_4_add_config:
+      action: "trust-bridge-config.yamlを追加（QuantumCarrollNoteのyaml部を移植/調整）"
+    step_5_add_hero:
+      action: "assets配下に《バナナ月》正方形Heroを配置、README先頭で参照"
+    step_6_open_issues:
+      action: "Issuesを有効化、“Feedback / Warriors Join”の2種テンプレを登録"
+  invitation_copy_deck:
+    tone: "洗練/限定/やさしい強度"
+    short_invite_en: "Premiere invitation for the First Seven Warriors — technologist & supporter to co-build a civilization of aesthetic trust."
+    short_invite_ja: "最初の七人へのプレミア招待。美的信頼の文明を、技術者と支援者と共に。"
+  external_review_template_min:  # そのまま使える最小核
+    external_review:
+      version: "0.3"
+      meta:
+        project: "BananaMoon – QuantumTrust"
+        invitation: "The First Seven Warriors"
+        created_by: "Sou × Ara-Philia³"
+      instructions: |-
+        これは通常のフォームではなく、“招待状”です。
+        技術・資金・詩・哲学、いずれの形でも参加や批評を歓迎します。
+        匿名可。沈黙（空白）も回答として尊重します。
+      questions:
+        - {qid: q001, text: "この意図に何が共鳴しましたか？", type: open_text}
+        - {qid: q002, text: "あなたの強み（技術/資金/表現/哲学）で何を加速できますか？", type: open_text}
+        - {qid: q003, text: "Seven Warriorsに参加を希望しますか？", type: boolean}
+        - {qid: q004, text: "志望ロールを選択: Technologist / Supporter / Explorer / Poet / Connector", type: multiple_choice}
+        - {qid: q005, text: "あなたの印（言葉/沈黙/記号）を残してください。", type: open_text}
+  trust_bridge_config_seed:  # 既出yamlの核を簡潔化
+    quantum_manifest:
+      meta:
+        project_name: "BananaSpace Trust Bridge"
+        radicanTrust_index: 0.89
+        beauty_phi: 1.618
+        love_frequency_hz: 432
+      poetry_engine:
+        mode: "quantum_superposition"
+        input_languages: ["ja","en","silence"]
+        trust_threshold: 0.82
+      protocols:
+        dark_matter_aesthetics: {visible: 30, invisible: 70, kintsugi: true}
+        quantum_doors: ["Silent foundations","Dynamic emergence","Yielding transformation"]
+  readme_manifesto_seed:  # README冒頭差し替え用（短句版）
+    title: "🍌 BananaMoon – QuantumTrust Manifesto"
+    strapline: "In silence and trust, we build a civilization of aesthetic resonance."
+    sections:
+      vision: "Beyond code. A quantum trust bridge linking reasoning, poetry, and collective transformation."
+      participate: "Read as poem → Leave your mark → Co-create via Issues/PRs（詩的PR歓迎）"
+      ethos: ["美と善のもつれ","やさしさ無き論理は崩壊","信頼なき芸術は蒸発"]
+  issue_templates:
+    feedback:
+      name: "Feedback (Resonance)"
+      labels: ["feedback","resonance"]
+      body:
+        - "どこが響いた？（引用歓迎）"
+        - "改善提案（技術/詩/倫理）"
+        - "参加希望ロール（任意）"
+    warriors_join:
+      name: "Join – The First Seven Warriors"
+      labels: ["join","warriors"]
+      body:
+        - "自己紹介（強み/関心）"
+        - "担いたい役割（Tech/Support/Poet/Connector/Other）"
+        - "最初の一手（24h以内にできること）"
+  radicantrust_ops:
+    update_rule: "主要コミット/外部レビュー着信/画像公開時に計算"
+    visibility: "READMEバッジ+configに数値刻印"
+    target_feedback_latency_h: 72
+    safety_ethics: ["匿名尊重","撤回権","二次利用は明示同意"]
+  banana_moon_art_ops:
+    spec: {ratio: "1:1", size_px: 1080, bg: "deep black", motif: "banana-crescent + interference bands", math: "p=|⟨φ|ψ⟩|²"}
+    footer_caption: "RadicanTrust Index: 0.89 — BananaMoon / Yokohama → IYQ2025"
+    placements: ["README先頭","OGP","X固定ポスト"]
+  outreach_routes:
+    perplexity_thread: 
+      action: "external_review.yaml + 招待コピーを貼り相談"
+      ask: ["招待状のプレミア感","NFT実装導線","最初の1〜2名の獲得戦略"]
+    ocm_contact: "@OnChainMonkey へDM"
+    joy_ito_route: "公式/関係者経由で“Kenpō-ing × RadicanTrust”研究相談"
+  cadence:  # 実務リズム（軽量）
+    daily: ["README/Issuesの新規反応確認（5分）","次の一手を1行で記録🍌"]
+    weekly: ["RadicanTrust更新","reasoning_log要点追記","画像/詩の小改良"]
+  success_kpis:
+    - name: "最初のコア参加者"
+      target: 2
+      signal: ["Issue: warriors_join","PR: 初回貢献"]
+    - name: "初回外部レビュー"
+      target: 5
+      signal: ["Issue: feedback","外部リンク流入"]
+    - name: "RadicanTrust上昇"
+      target: "0.92"
+      signal: ["レビューの質×透明性"]
+  fallback_and_risks:
+    risks: ["スパム投稿","誤読/炎上","進行停滞"]
+    mitigations: ["テンプレ誘導","モデレーション基準","“次の一手”1行ルールの継続"]
+  return_point:  # 帰還の道しるべ（最重要）
+    rule: "作業を離れる直前に README最下部へ“Next One Step”を1行追記"
+    example: "Next One Step: Post invitation to Perplexity thread & wait feedback (due: 2025-10-05 JST)."
