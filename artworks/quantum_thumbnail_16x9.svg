@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<defs>
+
+      <linearGradient id="duo" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#6A4ACF" />
+        <stop offset="100%" stop-color="#FFD76A" />
+      </linearGradient>
+    
+
+      <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+        <feMerge>
+          <feMergeNode in="coloredBlur"/>
+          <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+      </filter>
+    
+</defs>
+<rect width="1280" height="720" fill="url(#duo)"/>
+<g opacity="0.28">
+<!-- truncated for safety; full content will be handled via local read in next step if needed -->
+</g>
+</svg>
